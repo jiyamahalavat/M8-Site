@@ -38,10 +38,10 @@ window.addEventListener("load", function() {
             orderForm.elements.modelCost.value = modelCost;
 
             //Retrieve the cost of the protection plan
-            let planValue = document.querySelector('input[name-"plan"]:checked').value;
+            let planValue = document.querySelector('input[name="plan"]:checked').value;
 
             //Charge the plan to each item ordered
-            let planCost = planValue * quantity;
+            let planCost = planValue * quanity;
             orderForm.elements.planCost.value = planCost;
 
             //Calculate the order subtotal
